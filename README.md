@@ -49,7 +49,18 @@
 * 本地开发
 * 联调测试
 * 发布备份
-	
+
+## [方案规范](dir.md)
+* [项目目录规范](dir.md#项目目录规范)
+	* 项目目录
+	* 输出目录
+	* 上线目录
+* [ui和unit组件目录规范](dir.md#ui和unit组件目录规范)
+	* ui和unit目录
+* [widget目录规范](dir.md#widget目录规范)
+	* widget目录
+	* widget目录细化	
+
 ## [ui和unit组件](ui.md)
 * [引用方法](ui.md#引用方法)
 * [公共base引用](ui.md#公共base引用)
@@ -65,17 +76,6 @@
 * todo
 
 ## [依赖管理方案](depend.md)
-
-## [方案规范](dir.md)
-* [项目目录规范](dir.md#项目目录规范)
-	* 项目目录
-	* 输出目录
-	* 上线目录
-* [ui和unit组件目录规范](dir.md#ui和unit组件目录规范)
-	* ui和unit目录
-* [widget目录规范](dir.md#widget目录规范)
-	* widget目录
-	* widget目录细化
 
 ## 配置API
 * [配置API](config.md)
