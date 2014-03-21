@@ -37,8 +37,8 @@
 	* 执行 jdf -v 如果出现版本号则说明你已安装成功
 
 ## 示例演示
-* [示例安装](demo.md)
-* [示例演示](demo.md)
+* [示例安装](demo.md#示例安装)
+* [示例演示](demo.md#示例演示)
 
 ## 快速入门
 * [快速入门](abc.md)
@@ -49,15 +49,15 @@
 * 发布备份
 	
 ## [ui和unit组件](ui.md)
-* 引用方法
-* 公共base引用
-* 页面头尾初始化
-* 本地调试
-* 最佳实践
+* [引用方法](ui.md#引用方法)
+* [公共base引用](ui.md#公共base引用)
+* [页面头尾初始化](ui.md#页面头尾初始化)
+* [本地调试](ui.md#本地调试)
+* [最佳实践](ui.md#最佳实践)
 
 ## [widget模块](widget.md)
-* widget模块介绍
-* widget相关命令
+*  [widget模块介绍](widget.md#widget模块介绍)
+*  [widget相关命令](widget.md#widget相关命令)
 
 ## [widget生态圈](widgetcircle.md)
 * todo
@@ -65,21 +65,21 @@
 ## [依赖管理方案](depend.md)
 
 ## [方案规范](dir.md)
-* 项目目录规范
+* [项目目录规范](dir.md#项目目录规范)
 	* 项目目录
 	* 输出目录
 	* 上线目录
-* ui和unit组件目录规范
+* [ui和unit组件目录规范](dir.md#ui和unit组件目录规范)
 	* ui和unit目录
-* widget目录规范
+* [widget目录规范](dir.md#widget目录规范)
 	* widget目录
 	* widget目录细化
 
 ## 配置API
-* [config.json](config.md)
+* [配置API](config.md)
 
 ## 命令手册
-* [api](api.md)
+* [命令手册](api.md)
 
 ## 编译器插件
 * Sublime Text2 插件
