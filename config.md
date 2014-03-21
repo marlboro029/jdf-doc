@@ -16,7 +16,8 @@
 			"buildDirName" : "html",
 			"outputDirName:" : "build",
 			"outputCustom:" : "a/,b/",
-	
+			"widgetOutputName": "widget",
+			
 			"projectPath" : "product/index/",
 			"host" : "192.168.1.1",
 			"serverDir" : "cdndir",
@@ -38,7 +39,8 @@
 		buildDirName:'html', //编译的文件夹名称
 		outputDirName:'build', //输出文件夹名称
 		outputCustom:'a/,b/', //自定义输出文件夹
-	
+		widgetOutputName: "widget", //输出的widget文件夹名称
+		
 		projectPath: 'product/index/', //工程目录前缀
 		host:"192.168.1.1", //远端机器IP
 		serverDir: 'cdndir', //上传至远端服务器文件夹名称

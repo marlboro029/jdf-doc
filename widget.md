@@ -1,12 +1,6 @@
 # widget
 
-## widget命令使用介绍
-
-* widget -preview name 预览一个widget模块
-* widget -install name 安装一个widget模块到当前工程
-* widget -publish name 发布一个widget模块
-
-## widget模块依赖介绍
+## widget模块介绍
 
 * widget模块是为了解决开发多个页面中有相同html结构，一页多屏html代码上等等问题。
 * 引入类型：html，css，images
@@ -36,3 +30,13 @@
 	* 所有widget模块中css文件合并为widget.css
 	* 所有widget模块中js文件合并为widget.js
 	* 所有widget模块中images文件输出对应至目录
+
+* widget输出目录名配置
+	* 在config.json里面配置统一的配置项 "widgetOutputName": "widgetoutput"
+	* 如果html页面中间有{%widgetOutputName="mywidget"%}则使用此处的name
+
+## widget相关命令
+
+* widget -preview name 预览一个widget模块
+* widget -install name 安装一个widget模块到当前工程
+* widget -publish name 发布一个widget模块
