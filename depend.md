@@ -1,4 +1,4 @@
-#依赖管理方案
+#js依赖管理方案
 
 seajs的config中base所有项目统一设置假设为 http://cdn.com/
 

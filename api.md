@@ -1,4 +1,4 @@
-## 相关命令
+## 命令手册
 	 
 	 Usage: jdf <Command>:
 

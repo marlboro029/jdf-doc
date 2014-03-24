@@ -50,7 +50,7 @@
 * 联调测试
 * 发布备份
 
-## [方案规范](dir.md)
+## 方案规范
 * [项目目录规范](dir.md#项目目录规范)
 	* 项目目录
 	* 输出目录
@@ -61,21 +61,27 @@
 	* widget目录
 	* widget目录细化	
 
-## [ui和unit组件](ui.md)
-* [引用方法](ui.md#引用方法)
-* [公共base引用](ui.md#公共base引用)
-* [页面头尾初始化](ui.md#页面头尾初始化)
-* [本地调试](ui.md#本地调试)
-* [最佳实践](ui.md#最佳实践)
 
-## [widget模块](widget.md)
-*  [widget模块介绍](widget.md#widget模块介绍)
-*  [widget相关命令](widget.md#widget相关命令)
+## widget组件
+*  [生态圈](widget.md#生态圈)
+*  [widget定义](widget.md#widget定义)
+*  [组成形式](widget.md#组成形式)
+*  [引用方法](widget.md#引用方法)
+*  [开发目录](widget.md#开发目录)
+*  [页面输出](widget.md#页面输出)
+*  [编译输出](widget.md#编译输出)
+*  [打包策略](widget.md#编译输出)
+*  [相关命令](widget.md#相关命令)
 
-## [widget生态圈](widgetcircle.md)
-* todo
-
-## [依赖管理方案](depend.md)
+## js组件
+* [组件类型](js.md#组件类型)
+* [组件写法](js.md#组件写法)
+* [引用方法](js.md#引用方法)
+* [公共base引用](js.md#公共base引用)
+* [页面头尾初始化](js.md#页面头尾初始化)
+* [本地调试](js.md#本地调试)
+* [最佳实践](js.md#最佳实践)
+* [依赖管理方案](depend.md)
 
 ## 配置API
 * [配置API](config.md)

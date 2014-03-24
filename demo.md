@@ -1,7 +1,7 @@
 # 示例
 
 ## 示例安装
-安装一个完整的demo,只需要执行
+安装一个完整的demo，只需要执行
 
 		jdf install demo
 
@@ -21,7 +21,7 @@
 更具体的目录规范请参考 [目录规范](dirctory.md)
 
 ## 示例演示
-命令行下进入jdf_demo_2014根目录,在命令行下执行
+命令行下进入jdf_demo_2014根目录，在命令行下执行
 
 		jdf build
 
@@ -29,7 +29,7 @@
 
 		jdf build -open 
 
-启动内置server,并且自动打开浏览器进入 [http://localhost:3000/html/index.html](http://localhost:3000/html/index.html)
+启动内置server，并且自动打开浏览器进入 [http://localhost:3000/html/index.html](http://localhost:3000/html/index.html)
 
 ## 小提示
-	windows7下在当前文件夹打开命令行的方法:Shift+鼠标右键,选择"在此处打开命令窗口"
+	windows7下在当前文件夹打开命令行的方法:Shift+鼠标右键，选择"在此处打开命令窗口"
