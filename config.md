@@ -1,6 +1,6 @@
 # 配置文档
 
-## config.json需要放在项目根目录下, 可配置项如下：
+* config.json需要放在项目根目录下, 可配置项如下：
 
 		{
 			"cdn":"http://www.cdn.com", 
@@ -24,7 +24,7 @@
 			"localServerPort" : "3000" 
 		}
 	
-## 具体说明如下:
+* 具体说明如下:
 
 		cdn:'http://www.cdn.com', //静态cdn域名
 		jsPlace:"bottom", //编译后js文件位置,位于header或者页面底部
