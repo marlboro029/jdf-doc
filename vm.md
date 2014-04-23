@@ -97,20 +97,20 @@ velocity模板语法的javascript实现，Velocity是基于Java的模板引擎�
 
 如vm.json
 
-		{
-			"name":"vm name",
-			"allProducts":[
-				{
-					"title": "风", 
-					"from": "中国" 
-				}, 
-				{
-					"title": "应用", 
-					"from": "河北"
-				}
-			],
-			"myProducts":{
-				"age":9,
-				"from":"cn"
+	{
+		"name":"vm name",
+		"allProducts":[
+			{
+				"title": "风", 
+				"from": "中国" 
+			}, 
+			{
+				"title": "应用", 
+				"from": "河北"
 			}
+		],
+		"myProducts":{
+			"age":9,
+			"from":"cn"
 		}
+	}
