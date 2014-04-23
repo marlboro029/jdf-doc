@@ -1,5 +1,10 @@
 #vm模板
 
+##设计原则
+让前端来写后端的vm模板，并且前端不需要搭建各种繁杂的后端环境，前后端以 .vm 为沟通桥梁，另外模板的数据源可以在项目开始前前后端约定之后生成JSON文件，从而使两个角色并行开发。
+
+##velocity模板引挚
+velocity模板语法的javascript实现，Velocity是基于Java的模板引擎，应用广泛。Velocity模板适用于大量模板使用的场景，支持模板嵌套，复杂的逻辑运算，包含基本数据类型、变量赋值和函数等功能。
 
 ##目录结构
 * html/vm.html
@@ -10,24 +15,16 @@
 
 	{%widget name="vm" data='{"name":"myname"}'%}
 	
-注意:单双引号的;data必须为json类型
+注意data之间的单双引号，data内容必须为json类型
 
 ##数据源分类
-* 引用时传data参数,如{%widget name="vm" data='{"name":"myname"}'%}中的{"name":"myname"}
-* 数据源文件 即widget/vm/vm.json
-* 优先级 data参数 > 数据源文件, 即数据源文件和data参数的数据名同时存在时以data参数为准
+* data传参数据源，如 {%widget name="vm" data='{"name":"myname"}' %} 中的{"name":"myname"}
+* 数据源文件，如widget/vm/vm.json的内容
+* 两者优先级 "data传参数据源" > "数据源文件"，即data传参数据源和数据源文件，数据名称相同时，以"data传参数据源"为准
 
-##模板引挚
-* 前端: 类java volicity nodejs版本
-* 后端: java volicity nodejs
+##velocity基本语法
 
-##适用范围
-* 支持java volicity 系统
-
-
-##基本语法
-
-* 1、"#"用来标识Velocity的脚本语句，包括#set、#if 、#else、#end、#foreach、#end、#iinclude、#parse、#macro等，如:
+* 1."#"用来标识Velocity的脚本语句，包括#set、#if 、#else、#end、#foreach、#end、#iinclude、#parse、#macro等，如:
 
 		#if($info.images)
 		<img src="$info.images">
@@ -35,19 +32,19 @@
 		<img src="noPhoto.jpg">
 		#end
 
-* 2、"$"用来标识一个变量，如
+* 2."$"用来标识一个变量，如
 
 		$i、$msg.errorNum
 
-* 3、"!"用来强制把不存在的变量显示为空白
+* 3."!"用来强制把不存在的变量显示为空白
 
 		$!msg
 
-* 4、注释，如：
+* 4.注释，如：
 
 		## 这是一行注释，不会输出
 
-##语法详解
+##velocity语法详解
 
 具体更详细的语法可参考[官网] (http://velocity.apache.org/engine/devel/user-guide.html)
 如vm.vm
@@ -79,7 +76,7 @@
 * 4.迭代数据List ($velocityCount为列举序号，默认从1开始) 
 
 		#foreach( $product in $allProducts )
-			<li>$velocityCount $product $product.title</li>
+			<li>$velocityCount $product.title</li>
 		#end
 
 * 5.迭代数据get key
@@ -102,19 +99,14 @@
 
 		{
 			"name":"vm name",
-			"error_code":1,
 			"allProducts":[
 				{
 					"title": "风", 
-					"journal": "中国" 
+					"from": "中国" 
 				}, 
 				{
 					"title": "应用", 
-					"journal": "河北"
-				}, 
-				{
-					"title": "应用价值", 
-					"journal": "北京"
+					"from": "河北"
 				}
 			],
 			"myProducts":{
