@@ -38,6 +38,8 @@
 	* npm install jdf **-g** --save-dev
 * 安装测试
 	* 执行 jdf -v 如果出现版本号则说明你已安装成功
+* 更新jdf
+	* npm update jdf **-g**
 
 ## 示例演示
 * [示例安装](demo.md#示例安装)
@@ -91,4 +93,4 @@
 * [命令手册](api.md)
 
 ## 编译器插件
-* Sublime Text2 插件
+* [Sublime Text2 插件](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
