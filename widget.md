@@ -46,8 +46,9 @@
 	  └── test
 			├── test.tpl //模板文件
 			├── test.css //css文件
-			├── test.js //js文件
-			└── test.png //图片文件
+			├── i/ //等待上线的图片文件夹
+			├── images/ //素材图片文件夹
+			└── test.js //js文件
 	
 ## 页面输出
 

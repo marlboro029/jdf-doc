@@ -31,7 +31,9 @@
 		|					|		├── header.source //tpl的数据源文件		
 		|					|		├── header.css //css文件
 		|					|		├── header.js //js文件
-		|					|		└── header.png //图片文件
+		|					|		├── i/ //等待上线的图片文件夹
+		|					|		├── images/ //素材图片文件夹
+		|					|		└── header.js //图片文件
 		|		  	   		└── config.json //配置文件
 
 * 输出目录
@@ -119,3 +121,28 @@
 	* css组件: 仅提供必要的css支持,一般会和tpl一起使用
 	* js组件: 仅提供必要的js支持, 一般也会和tpl一起使用
 
+## 图片目录规范
+
+* 如下
+
+		├──jdf_demo
+		|	└──index   
+		|		  └── branches 
+		|		  	   └── jdf_demo_2014
+		|		  	   		├── app //静态文件目录
+		|					|	├── css //css文件夹
+		|					|	|	└── i //图片文件夹
+		|					|	└── js //js文件文件夹
+		|		  	   		├── html //预览页面html
+		|		  	   		├── img //预览页面中示例图片
+		|		  	   		├── widget //组件目录，包括模板组件，js组件，css组件
+		|					|	└── header
+		|					|		├── i/ //等待上线的图片文件夹
+		|					|		└── images/ //素材图片文件夹
+		|		  	   		└── config.json //配置文件
+
+
+* v1.0说明
+	* widget中: 要上线的的图片放在当前widget的i文件夹下, 素材图片放在images文件夹下
+	* app/css/中: 图片放在当app/css/的i文件夹下
+	* 上线时widget中的图片会全部复制至app/css/i下

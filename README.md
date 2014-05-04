@@ -86,6 +86,18 @@
 * [最佳实践](js.md#最佳实践)
 * [依赖管理方案](depend.md)
 
+##vm模板
+* [设计原则](vm.md#设计原则)
+* [velocity模板引挚](vm.md#velocity模板引挚)
+* [目录结构](vm.md#目录结构)
+* [引用方法](vm.md#引用方法)
+* [velocity基本语法](vm.md#velocity基本语法)
+* [velocity语法详解](vm.md#velocity语法详解)
+* [数据源举例](vm.md#数据源举例)
+
+##集成工具使用
+* [LiveReload](https://github.com/putaoshu/jdf-doc/blob/master/livereload.md)
+
 ## 配置API
 * [配置API](config.md)
 
