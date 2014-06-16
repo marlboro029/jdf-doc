@@ -16,7 +16,7 @@
 * widget模块是可复用并且能独立提供功能的页面片段，可以在单个项目里面使用，也可以发布贡献出来供其它项目使用
 
 ## 组成形式
-* 可复用的tpl片断
+* 可复用的vm/tpl片断
 * 可复用的js片断
 * 可复用的css片断
 
@@ -25,20 +25,45 @@
 
 		{%widget name="test"%}
 
-* 在页面中单独引入widget的js
+此时当前widget文件夹下的vm,tpl编译到页面上,js和css也加载至页面上
+
+
+* 在页面中单独引入widget的vm文件
+
+		{%widget name="test" type="vm"%}
+
+* 在页面中单独引入widget的tpl文件
+
+		{%widget name="test" type="vm"%}
+
+* 在页面中单独引入widget的js文件
 
 		{%widget name="test" type="js"%}
 
-* 在页面中单独引入widget的css
+* 在页面中单独引入widget的css文件
 
 		{%widget name="test" type="css"%}		
 
 * widget输出文件名配置
-	* 在页面中引入
+	* 在引入页面增加widgetOutputName
 	
-		{%widgetOutputName="mywidget"%}
+			{%widgetOutputName="mywidget"%}
 
-* 或在config.json里面配置统一的配置项 "widgetOutputName": "widgetoutput"
+	* 或在config.json里面配置统一的配置项
+
+			 widgetOutputName: widgetoutput
+
+* widget引入时注释配置
+	* 在页面中引入，不带文件路径注释
+
+			{%widget name="test" comment="false"%}
+
+	* 或在config.json里面配置统一的配置项 
+
+			build: {
+				widgetIncludeComment:true //默认为true，不带可以设置成false
+			}
+
 
 ## 开发目录
 

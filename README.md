@@ -96,7 +96,7 @@
 * [数据源举例](vm.md#数据源举例)
 
 ##集成工具使用
-* [LiveReload](https://github.com/putaoshu/jdf-doc/blob/master/livereload.md)
+* [LiveReload](livereload.md)
 
 ## 配置API
 * [配置API](config.md)

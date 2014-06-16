@@ -13,7 +13,7 @@
 
 良好的目录结构更有利于组织代码,并方便团队成员间浏览代码
 
-* 项目目录
+* 项目目录v1
 
 		├──jdf_demo
 		|	└──index   
@@ -36,6 +36,27 @@
 		|					|		└── header.js //图片文件
 		|		  	   		└── config.json //配置文件
 
+* 项目目录v2
+
+		├──jdf_demo
+		|		  └──index   
+		|		  	   	├── css //css文件夹
+		|				|	└── i //图片文件夹
+		|		  	   	├── js //js文件夹
+		|		  	   	├── html //预览页面html
+		|		  	   	├── doc //项目文档,项目介绍
+		|		  	   	├── widget //组件目录，包括模板组件，js组件，css组件
+		|				|	└── header
+		|				|		├── header.tpl //模板文件
+		|				|		├── header.json //tpl的数据源文件		
+		|				|		├── header.css //css文件
+		|				|		├── header.js //js文件
+		|				|		├── i/ //等待上线的图片文件夹
+		|				|		├── images/ //素材图片文件夹
+		|				|		└── header.js //图片文件
+		|		  	   	└── config.json //配置文件
+
+
 * 输出目录
 
 		├──jdf_demo
@@ -49,6 +70,7 @@
 		├──jdf_demo
 		|	└──index   
 		|		├── css //css文件目录
+		|		├── css/i //图片文件目录
 		|		└── js  //js文件目录
 
 * 目录说明

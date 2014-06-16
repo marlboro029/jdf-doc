@@ -8,6 +8,10 @@
 * 4.jdf如果提示"Browser connected LiveReload"，则说明浏览器和LiveReload连接成功
 * 5.最后在编辑器里修改工程文件保存后，页面即会自动刷新
 
+##特别说明
+
+如果有两个进程那么第二个进程的livereload功能被关闭
+
 ##参考资料
 
 * [LiveReload官网](http://livereload.com/)

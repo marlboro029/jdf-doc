@@ -8,6 +8,7 @@
 	install             install init dir, demo
 	build               build project
 		  -open         auto open html/index.html
+          -combo		combo debug for online/RD debug
 
 	release             release project
 
