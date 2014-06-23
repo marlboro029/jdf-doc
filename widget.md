@@ -95,6 +95,6 @@
 * widget -preview xxx 	preview a widget //预览一个widget模块
 * widget -install xxx 	install a widget to local //安装一个widget模块到当前工程
 * widget -publish xxx 	publish a widget to server //发布一个widget模块到服务端
-* widget -new xxx 	new a widget to local //在本地项目新建一个widget,会生成widget文件夹和vm,css,js,json文件
+* widget -create xxx 	create a widget to local //在本地项目新建一个widget,会生成widget文件夹和vm,css,js,json文件
 * widget -list  	get widget list from server //取得服务端所有widget列表
 
