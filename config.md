@@ -36,6 +36,15 @@
 				"compressJs":true,
 				"compressCss:true,
 				"compressPng":true
+			},
+			widget:{
+				js:[
+					'http://misc.360buyimg.com/jdf/lib/jquery-1.6.4.js',
+					'http://misc.360buyimg.com/jdf/1.0.0/unit/base/1.0.0/base.js'
+				],
+				css:[
+					'http://misc.360buyimg.com/lib/skin/2013/base.css'
+				]
 			}
 		}
 	
@@ -68,11 +77,23 @@
 			widgetIncludeComment:true, //引用widget时是否带上文件路径注释
 			sass:true,//是否开启sass编译
 			lass:true//是否开启lass编译
-		}
+		},
 
 		output:{
 			vm:true, //是否开启vm编译
 			compressJs:true,//是否开启压缩js文件
 			compressCss:true,//是否开启压缩css文件
 			compressPng:true//是否开启压缩png图片
+		},
+
+		widget:{
+			//widget预览所依赖的js
+			js:[
+				'http://misc.360buyimg.com/jdf/lib/jquery-1.6.4.js',
+				'http://misc.360buyimg.com/jdf/1.0.0/unit/base/1.0.0/base.js'
+			],
+			//widget预览所依赖的css
+			css:[
+				'http://misc.360buyimg.com/lib/skin/2013/base.css'
+			]
 		}

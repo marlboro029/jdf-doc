@@ -69,7 +69,7 @@
 
 	widget //组件目录，包括模板组件，js组件，css组件
 	  └── test
-			├── test.tpl //模板文件
+			├── test.vm //模板文件
 			├── test.css //css文件
 			├── i/ //等待上线的图片文件夹
 			├── images/ //素材图片文件夹
@@ -91,6 +91,10 @@
 
 ## 相关命令
 
-* widget -preview name 预览一个widget模块
-* widget -install name 安装一个widget模块到当前工程
-* widget -publish name 发布一个widget模块
+* widget -all  	preview all widget //预览所有项目中所有widget
+* widget -preview xxx 	preview a widget //预览一个widget模块
+* widget -install xxx 	install a widget to local //安装一个widget模块到当前工程
+* widget -publish xxx 	publish a widget to server //发布一个widget模块到服务端
+* widget -new xxx 	new a widget to local //在本地项目新建一个widget,会生成widget文件夹和vm,css,js,json文件
+* widget -list  	get widget list from server //取得服务端所有widget列表
+
