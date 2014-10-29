@@ -1,3 +1,9 @@
+#jdf html规范
+
+<table>
+<tr><td>版本</td> <td> 日期</td> <td> 说明 </td> </tr>
+<tr><td>v1.0</td> <td> 2013-12-2</td> <td> 初版</td> </tr>
+</table>
 
 ## 目的
 本文定义了HTML和CSS的格式和样式规则,旨在改善代码协作编码,代码质量和规范基本结构.
@@ -97,19 +103,16 @@
 
 ## html-常用转义
 
-        <table>
-        <th><td>显示说明</td><td>实体名称</td></th>
-        <tr><td></td> <td>不断行的空白格</td> <td>&nbsp;</td></tr>
-        <tr><td><</td> <td>小于</td> <td>&lt;</td></tr>
-        <tr><td>></td> <td>大于</td> <td>&gt;</td></tr>
-        <tr><td>'</td> <td>单引号</td> <td>&#39;</td></tr>
-        <tr><td>©</td> <td>版权</td> <td>&copy;</td></tr>
-        <tr><td>®</td> <td>已注册商标</td> <td>&reg;</td></tr>
-        <tr><td>™</td> <td>商标（美国）</td> <td>&trade;</td></tr>
-        <tr><td>×</td> <td>乘号</td> <td>&times; </td></tr>
-        <tr><td>÷</td> <td>除号</td> <td>&divide; </td></tr>
-        </table>
-
+        显示说明 | 实体名称
+        不断行的空白格 | &nbsp;
+        < | 小于 | &lt;
+        > | 大于 | &gt;
+        ' | 单引号 | &#39;
+        © | 版权 | &copy;
+        ® | 已注册商标 | &reg;
+        ™ | 商标（美国） | &trade;
+        × | 乘号 | &times; 
+        ÷ | 除号 | &divide; 
 
 ## html-hack
 可以在头部添加如下代码,可以对IE的版本进行区分

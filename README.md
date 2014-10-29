@@ -35,74 +35,75 @@
 	* [nodejs安装](http://nodejs.org/download/)
 	* node版本需要 >=0.8.0
 * 安装jdf
-	* npm install jdf **-g** --save-dev
+	* npm install jdf **-g**
 * 安装测试
 	* 执行 jdf -v 如果出现版本号则说明你已安装成功
 * 更新jdf
-	* npm update jdf **-g**
+	* npm install jdf **-g**
 
 ## 示例演示
-* [示例安装](demo.md#示例安装)
-* [示例演示](demo.md#示例演示)
+* [示例安装](demo.html#示例安装)
+* [示例演示](demo.html#示例演示)
 
 ## 开发流程
-* [新建工程目录](dev.md#新建工程目录)
-* [项目开发](dev.md#项目开发)
-* [项目本地调试](dev.md#项目本地调试)
-* [项目输出](dev.md#项目输出)
-* [项目联调和发布](dev.md#项目联调和发布)
-* [项目备份](dev.md#项目备份)
-* [工作流程对比](compare.md)
+* [新建工程目录](dev.html#新建工程目录)
+* [项目开发](dev.html#项目开发)
+* [项目本地调试](dev.html#项目本地调试)
+* [项目输出](dev.html#项目输出)
+* [项目联调和发布](dev.html#项目联调和发布)
+* [项目备份](dev.html#项目备份)
+* [工作流程对比](compare.html)
 
 ## 方案规范
-* [项目目录规范](dir.md#项目目录规范)
+* [项目目录规范](dir.html#项目目录规范)
 	* 项目目录
 	* 输出目录
 	* 上线目录
-* [ui和unit组件目录规范](dir.md#ui和unit组件目录规范)
+* [ui和unit组件目录规范](dir.html#ui和unit组件目录规范)
 	* ui和unit目录
-* [widget目录规范](dir.md#widget目录规范)
+* [widget目录规范](dir.html#widget目录规范)
 	* widget目录
 	* widget目录细化	
 
-
 ## widget组件
-*  [生态圈](widget.md#生态圈)
-*  [widget定义](widget.md#widget定义)
-*  [组成形式](widget.md#组成形式)
-*  [引用方法](widget.md#引用方法)
-*  [开发目录](widget.md#开发目录)
-*  [页面输出](widget.md#页面输出)
-*  [编译输出](widget.md#编译输出)
-*  [相关命令](widget.md#相关命令)
+*  [生态圈](widget.html#生态圈)
+*  [widget定义](widget.html#widget定义)
+*  [组成形式](widget.html#组成形式)
+*  [引用方法](widget.html#引用方法)
+*  [开发目录](widget.html#开发目录)
+*  [页面输出](widget.html#页面输出)
+*  [编译输出](widget.html#编译输出)
+*  [相关命令](widget.html#相关命令)
 
 ## js组件
-* [组件类型](js.md#组件类型)
-* [组件写法](js.md#组件写法)
-* [引用方法](js.md#引用方法)
-* [公共base引用](js.md#公共base引用)
-* [页面头尾初始化](js.md#页面头尾初始化)
-* [本地调试](js.md#本地调试)
-* [最佳实践](js.md#最佳实践)
-* [依赖管理方案](depend.md)
+* [组件类型](js.html#组件类型)
+* [组件写法](js.html#组件写法)
+* [引用方法](js.html#引用方法)
+* [公共base引用](js.html#公共base引用)
+* [页面头尾初始化](js.html#页面头尾初始化)
+* [本地调试](js.html#本地调试)
+* [最佳实践](js.html#最佳实践)
+* [依赖管理方案](depend.html)
 
 ##vm模板
-* [设计原则](vm.md#设计原则)
-* [velocity模板引挚](vm.md#velocity模板引挚)
-* [目录结构](vm.md#目录结构)
-* [引用方法](vm.md#引用方法)
-* [velocity基本语法](vm.md#velocity基本语法)
-* [velocity语法详解](vm.md#velocity语法详解)
-* [数据源举例](vm.md#数据源举例)
+* [设计原则](vm.html#设计原则)
+* [velocity模板引挚](vm.html#velocity模板引挚)
+* [目录结构](vm.html#目录结构)
+* [引用方法](vm.html#引用方法)
+* [velocity基本语法](vm.html#velocity基本语法)
+* [velocity语法详解](vm.html#velocity语法详解)
+* [数据源举例](vm.html#数据源举例)
 
 ##集成工具使用
-* [LiveReload](livereload.md)
+* [LiveReload自动刷新浏览器](livereload.html)
+* [cssslint](tool_cssslint.html)
+* [csssprite图片合并](tool_csssprite.html)
 
 ## 配置API
-* [配置API](config.md)
+* [配置API](config.html)
 
 ## 命令手册
-* [命令手册](api.md)
+* [命令手册](api.html)
 
 ## 编译器插件
 * [Sublime Text2 插件](https://sublime.wbond.net/packages/Jdf%20-%20Tool)

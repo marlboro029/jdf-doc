@@ -1,3 +1,10 @@
+#jdf css规范
+
+<table>
+<tr><td>版本</td> <td> 日期</td> <td> 说明 </td> </tr>
+<tr><td>v1.0</td> <td> 2013-12-2</td> <td> 初版</td> </tr>
+</table>
+
 ##目的
 本文定义了HTML和CSS的格式和样式规则,旨在改善代码协作编码,代码质量和规范基本结构.
 
@@ -62,8 +69,8 @@
 
 * [IE6] 双倍margin 解决方案-设置为inline-block http://www.positioniseverything.net/explorer/doubled-margin.html 
 * [IE6] 小于10px,解决方案-增加_overflow:hidden;
-* [<IE7] button有比较大的默认宽度,解决方案-增加*overflow:visible
-* [<IE8] 浮动的元素排序起来就像一个楼梯 http://haslayout.net/css/Staircase-Bug
+* [<　IE7] button有比较大的默认宽度,解决方案-增加*overflow:visible
+* [<　IE8] 浮动的元素排序起来就像一个楼梯 http://haslayout.net/css/Staircase-Bug
 * [chrome] chrome字体不能小于12px,解决方案-增加-webkit-text-size-adjust:none;
 
 ##css-兼容写法小技巧

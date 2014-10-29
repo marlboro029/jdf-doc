@@ -87,8 +87,8 @@ velocity模板语法的javascript实现，Velocity是基于Java的模板引擎�
 
 * 6.导入其它文件,可输入多个
 
-		#parse("vm_a.tpl")
-		#parse("vm_b.tpl")
+		#parse("vm_a.vm")
+		#parse("vm_b.vm")
 
 * 7.[todo多个文件用逗号隔开]
 

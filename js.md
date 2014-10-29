@@ -21,7 +21,8 @@
 
 * 工具编译后
 
-		define(['js/test.js'], ['widget/a/a.js', 'widget/b/b.js' ], function(require, exports, module){
+		define(['js/test.js'], ['/widget/a/a.js', 'widget/b/b.js' ], function(require, exports, module){
+			require("widget/a/a.js"),require("widget/b/b.js");
 			function init(){}
 			exports.init = init;
 		})
@@ -39,7 +40,7 @@
 * 项目内js引用方法
 	* 源码
 
-		seajs.use(['/app/js/a.js','/app/js/b.js'],function(a,b){ 
+		seajs.use(['/js/a.js','/js/b.js'],function(a,b){ 
 			//todo
 		})
 	

@@ -22,6 +22,6 @@ seajs的config中base所有项目统一设置假设为 http://cdn.com/
 
 * js中使用调用方式如下 (注意不要加/, 因为这个是基于base)
 		
-		seajs.use('/app/js/test.js') ==> 工具编译后 seajs.use('jdf_dependent/js/test.js')
-		require('/app/js/test.js') ==> 工具编译后 require('jdf_dependent/js/test.js')
+		seajs.use('/js/test.js') ==> 工具编译后 seajs.use('jdf_dependent/js/test.js')
+		require('/js/test.js') ==> 工具编译后 require('jdf_dependent/js/test.js')
 		实现请求url为 http://cdn.com/jdf_dependent/js/test.js

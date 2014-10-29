@@ -1,3 +1,9 @@
+#jdf js规范
+
+<table>
+<tr><td>版本</td> <td> 日期</td> <td> 说明 </td> </tr>
+<tr><td>v1.0</td> <td> 2013-12-2</td> <td> 初版</td> </tr>
+</table>
 
 ##目的
 使团队成员代码风格统一,维护更新便捷
@@ -105,7 +111,7 @@
              opacity:1
         },500);
 
-8.参数格式化
+* 参数格式化
 如 
 
         el.css({left:1,top:0,width:100,height:200})
